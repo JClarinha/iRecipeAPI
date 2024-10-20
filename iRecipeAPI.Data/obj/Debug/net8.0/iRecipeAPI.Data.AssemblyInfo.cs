@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iRecipeAPI.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7fd076aae0a54ce362dae147858234efe58722b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09054d2fd681b599689951f022eb371e88dc5c5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("iRecipeAPI.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iRecipeAPI.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
