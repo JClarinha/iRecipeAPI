@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Oreo Delight_638641779312865152.jpeg",
+      "PackagePath": "staticwebassets\\images\\Oreo Delight_638641779312865152.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646133859160026.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646133859160026.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646148785591301.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646148785591301.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646176404044882.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646176404044882.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646177143903259.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646177143903259.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646201218247045.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646201218247045.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646389683890800.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646389683890800.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638646990663920991.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638646990663920991.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638647679048519910.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638647679048519910.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638647714413692891.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638647714413692891.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638648052077875613.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638648052077875613.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120548_638649706106313029.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120548_638649706106313029.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120604_638646199268067714.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120604_638646199268067714.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120604_638646396757116900.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120604_638646396757116900.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120604_638647702752888947.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120604_638647702752888947.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 120604_638649699735923568.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 120604_638649699735923568.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 152953_638646141464933275.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 152953_638646141464933275.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 152953_638647693368574480.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 152953_638647693368574480.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 152953_638647701587684540.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 152953_638647701587684540.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 152953_638648885454220785.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 152953_638648885454220785.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 152953_638648887591081522.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 152953_638648887591081522.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 155958_638646171253741415.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 155958_638646171253741415.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 155958_638646171896539939.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 155958_638646171896539939.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\Screenshot 2024-10-09 155958_638649755294884515.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-10-09 155958_638649755294884515.png"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir (1)_638641742597706654.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir (1)_638641742597706654.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir (1)_638641749225960415.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir (1)_638641749225960415.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir_638641736140825136.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir_638641736140825136.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir_638641737142846203.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir_638641737142846203.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\transferir_638641750686658041.jpg",
+      "PackagePath": "staticwebassets\\images\\transferir_638641750686658041.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.iRecipeAPI.props",
+      "PackagePath": "build\\iRecipeAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.iRecipeAPI.props",
+      "PackagePath": "buildMultiTargeting\\iRecipeAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.iRecipeAPI.props",
+      "PackagePath": "buildTransitive\\iRecipeAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.iRecipeAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,15 @@
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\bin\Debug\net8.0\iRecipe.Domain.deps.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\bin\Debug\net8.0\iRecipe.Domain.runtimeconfig.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\bin\Debug\net8.0\iRecipe.Domain.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\bin\Debug\net8.0\iRecipe.Domain.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.sourcelink.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\refint\iRecipe.Domain.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\iRecipe.Domain.genruntimeconfig.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe.Domain\obj\Debug\net8.0\ref\iRecipe.Domain.dll
