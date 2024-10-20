@@ -1,0 +1,16 @@
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipe\obj\Debug\net8.0\iRecipeAPI.sourcelink.json
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\obj\Debug\net8.0\iRecipeAPI.sourcelink.json

@@ -1,0 +1,10 @@
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\bin\Debug\iRecipeAPI.Services.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\bin\Debug\iRecipeAPI.Services.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\obj\Debug\iRecipeAPI.Services.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\obj\Debug\iRecipeAPI.Services.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\obj\Debug\iRecipeA.BE0A3753.Up2Date
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\obj\Debug\iRecipeAPI.Services.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Services\obj\Debug\iRecipeAPI.Services.pdb

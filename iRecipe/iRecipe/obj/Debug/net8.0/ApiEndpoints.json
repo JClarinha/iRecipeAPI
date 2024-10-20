@@ -1,0 +1,1334 @@
+[
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "iRecipeAPI/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Category, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CategoryController",
+    "Method": "SaveCategory",
+    "RelativePath": "iRecipeAPI/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "iRecipeAPI.Domain.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "iRecipeAPI/Category",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CommentController",
+    "Method": "GetAllComments",
+    "RelativePath": "iRecipeAPI/Comment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Comment, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CommentController",
+    "Method": "SaveComment",
+    "RelativePath": "iRecipeAPI/Comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecipeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Pax",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Approval",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.RecipeDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.DifficultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.DifficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Preparation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CommentController",
+    "Method": "DeleteComment",
+    "RelativePath": "iRecipeAPI/Comment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.CommentController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Comment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.DifficultyController",
+    "Method": "GetAllDifficulties",
+    "RelativePath": "iRecipeAPI/Difficulty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Difficulty, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.DifficultyController",
+    "Method": "SaveDifficulty",
+    "RelativePath": "iRecipeAPI/Difficulty",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "difficulty",
+        "Type": "iRecipeAPI.Domain.Difficulty",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Difficulty",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.DifficultyController",
+    "Method": "DeleteDifficulty",
+    "RelativePath": "iRecipeAPI/Difficulty",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.DifficultyController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Difficulty/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.FavouriteController",
+    "Method": "GetAllFavourites",
+    "RelativePath": "iRecipeAPI/Favourite",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Favourite, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.FavouriteController",
+    "Method": "SaveFavourite",
+    "RelativePath": "iRecipeAPI/Favourite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecipeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Pax",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Approval",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.RecipeDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.DifficultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.DifficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Preparation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.FavouriteController",
+    "Method": "DeleteFavourite",
+    "RelativePath": "iRecipeAPI/Favourite",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.FavouriteController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Favourite/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientController",
+    "Method": "GetAllIngredients",
+    "RelativePath": "iRecipeAPI/Ingredient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Ingredient, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientController",
+    "Method": "SaveIngredient",
+    "RelativePath": "iRecipeAPI/Ingredient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredient",
+        "Type": "iRecipeAPI.Domain.Ingredient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Ingredient",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientController",
+    "Method": "DeleteIngredient",
+    "RelativePath": "iRecipeAPI/Ingredient",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Ingredient/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientController",
+    "Method": "GetByName",
+    "RelativePath": "iRecipeAPI/Ingredient/name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Ingredient",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientRecipeController",
+    "Method": "GetAllIngredientRecipes",
+    "RelativePath": "iRecipeAPI/IngredientRecipe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.IngredientRecipe, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientRecipeController",
+    "Method": "SaveIngredientRecipe",
+    "RelativePath": "iRecipeAPI/IngredientRecipe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IngredientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredient.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredient.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecipeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Pax",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Approval",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.RecipeDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.DifficultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Difficulty.DifficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Preparation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UnitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Unit.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Unit.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientRecipeController",
+    "Method": "DeleteIngredientRecipe",
+    "RelativePath": "iRecipeAPI/IngredientRecipe",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.IngredientRecipeController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/IngredientRecipe/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.RecipeController",
+    "Method": "GetAllRecipes",
+    "RelativePath": "iRecipeAPI/Recipe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Recipe, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.RecipeController",
+    "Method": "SaveCategory",
+    "RelativePath": "iRecipeAPI/Recipe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pax",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Approval",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Blocked",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Admin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecipeDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DifficultyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Difficulty.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Difficulty.DifficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preparation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Recipe",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.RecipeController",
+    "Method": "DeleteRecipe",
+    "RelativePath": "iRecipeAPI/Recipe",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.RecipeController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Recipe/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UnitController",
+    "Method": "GetAllUnits",
+    "RelativePath": "iRecipeAPI/Unit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.Unit, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UnitController",
+    "Method": "SaveUnit",
+    "RelativePath": "iRecipeAPI/Unit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unit",
+        "Type": "iRecipeAPI.Domain.Unit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.Unit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UnitController",
+    "Method": "DeleteUnit",
+    "RelativePath": "iRecipeAPI/Unit",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UnitController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/Unit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "iRecipeAPI/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[iRecipeAPI.Domain.User, iRecipeAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UserController",
+    "Method": "SaveUser",
+    "RelativePath": "iRecipeAPI/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "iRecipeAPI.Domain.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "iRecipeAPI.Domain.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "iRecipeAPI/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "iRecipeAPI.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "iRecipeAPI/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

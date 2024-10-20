@@ -1,0 +1,80 @@
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.deps.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.runtimeconfig.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.sourcelink.json
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeA.5C113853.Up2Date
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\refint\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.genruntimeconfig.cache
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\obj\Debug\net8.0\ref\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.dll
+C:\Users\joaoc\Desktop\Projeto Final\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.pdb
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.deps.json
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.runtimeconfig.json
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.dll
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.dll
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.pdb
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.pdb
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.sourcelink.json
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeA.5C113853.Up2Date
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\refint\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.genruntimeconfig.cache
+C:\Users\joaoc\Desktop\Projeto Final - Cópia\iRecipeAPI.Repositories\obj\Debug\net8.0\ref\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.deps.json
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.runtimeconfig.json
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.pdb
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.pdb
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.sourcelink.json
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeA.5C113853.Up2Date
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\refint\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.genruntimeconfig.cache
+C:\Users\joaoc\Desktop\API\iRecipeAPI.Repositories\obj\Debug\net8.0\ref\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.deps.json
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.runtimeconfig.json
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Domain.pdb
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\bin\Debug\net8.0\iRecipeAPI.Data.pdb
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.AssemblyReference.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfoInputs.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.AssemblyInfo.cs
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.sourcelink.json
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeA.5C113853.Up2Date
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\refint\iRecipeAPI.Repositories.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.pdb
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\iRecipeAPI.Repositories.genruntimeconfig.cache
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipeAPI.Repositories\obj\Debug\net8.0\ref\iRecipeAPI.Repositories.dll
