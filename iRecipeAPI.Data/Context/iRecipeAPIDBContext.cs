@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 namespace iRecipeAPI.Data.Context
 {
 
+
+
     public class iRecipeAPIDBContext : DbContext
     {
         public DbSet<User> Users { get; set; }
@@ -17,6 +19,8 @@ namespace iRecipeAPI.Data.Context
         public DbSet<Difficulty> Difficulties { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Category> Categories { get; set; }
+
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

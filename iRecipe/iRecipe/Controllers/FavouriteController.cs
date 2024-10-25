@@ -35,9 +35,9 @@ namespace iRecipeAPI.Controllers
             var favourite = _favouriteService.GetById(id);
             if (favourite == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(favourite); // Retorna 200 com os dados da categoria
+            return Ok(favourite); 
         }
 
         [HttpGet("User/{UserId}")]
@@ -47,9 +47,9 @@ namespace iRecipeAPI.Controllers
 
             if (favourite == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(favourite); // Retorna 200 com os dados da categoria
+            return Ok(favourite); 
         }
 
 

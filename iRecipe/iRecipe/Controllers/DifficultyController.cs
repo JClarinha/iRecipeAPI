@@ -30,9 +30,9 @@ namespace iRecipeAPI.Controllers
             var difficulty = _difficultyService.GetById(id);
             if (difficulty == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(difficulty); // Retorna 200 com os dados da categoria
+            return Ok(difficulty); 
         }
 
         [HttpPost]

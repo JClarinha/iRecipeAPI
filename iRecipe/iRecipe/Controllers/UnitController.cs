@@ -31,9 +31,9 @@ namespace iRecipeAPI.Controllers
             var unit = _unitService.GetById(id);
             if (unit == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(unit); // Retorna 200 com os dados da categoria
+            return Ok(unit); 
         }
 
         [HttpPost]

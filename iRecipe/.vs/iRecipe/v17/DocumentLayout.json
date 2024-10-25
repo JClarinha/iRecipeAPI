@@ -3,7 +3,193 @@
   "WorkspaceRootPath": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0018DDF3-C726-45B9-98A8-2DCC085909C2}|TestProject1\\iRecipe.Tests.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\testproject1\\unitservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0018DDF3-C726-45B9-98A8-2DCC085909C2}|TestProject1\\iRecipe.Tests.csproj|solutionrelative:testproject1\\unitservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0018DDF3-C726-45B9-98A8-2DCC085909C2}|TestProject1\\iRecipe.Tests.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\testproject1\\categoryreptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0018DDF3-C726-45B9-98A8-2DCC085909C2}|TestProject1\\iRecipe.Tests.csproj|solutionrelative:testproject1\\categoryreptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C73FB75-E4C6-4FA6-A934-B956CC2E3281}|..\\iRecipeAPI.Data\\iRecipeAPI.Data.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.data\\context\\irecipeapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\unitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\ingredientrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\ingredientreciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\favouriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\difficultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\iingredientreciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\ifavouriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\idifficultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF87C8CB-6CCF-417B-B279-2F4C51EEBBB5}|..\\iRecipeAPI.Repositories\\iRecipeAPI.Repositories.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipeapi.repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\ingredientrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01E3125-9F08-494C-8452-7916ED0DEAA9}|..\\iRecipe.Domain\\iRecipeAPI.Domain.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe.domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\iingredientrecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\ifavouriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\idifficultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\ingredientrecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\favouriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\difficultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\ingredientrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\ingredientrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\favouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\favouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\difficultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\difficultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +199,775 @@
       "DocumentGroups": [
         {
           "DockedWidth": 491,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\TestProject1\\UnitServiceTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitServiceTest.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\TestProject1\\UnitServiceTest.cs",
+              "RelativeToolTip": "TestProject1\\UnitServiceTest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:43:16.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRepTest.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\TestProject1\\CategoryRepTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\CategoryRepTest.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\TestProject1\\CategoryRepTest.cs",
+              "RelativeToolTip": "TestProject1\\CategoryRepTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:43:10.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "iRecipeAPIDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Data\\Context\\iRecipeAPIDBContext.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Data\\Context\\iRecipeAPIDBContext.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Data\\Context\\iRecipeAPIDBContext.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Data\\Context\\iRecipeAPIDBContext.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:42:43.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:41:25.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\UnitRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\UnitRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\UnitRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\UnitRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:41:23.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\RecipeRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\RecipeRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\RecipeRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:41:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IngredientRepositoy.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\IngredientRepositoy.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\IngredientRepositoy.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\IngredientRepositoy.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\IngredientRepositoy.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:41:13.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IngredientRecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\IngredientRecipeRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\IngredientRecipeRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\IngredientRecipeRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\IngredientRecipeRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:41:09.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FavouriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\FavouriteRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\FavouriteRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\FavouriteRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\FavouriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:58.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DifficultyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\DifficultyRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\DifficultyRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\DifficultyRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\DifficultyRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:53.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\CommentRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\CommentRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:48.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Implementations\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Implementations\\CategoryRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:38.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Class1.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Class1.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:35.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:34.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IUnitRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IUnitRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IUnitRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IUnitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:32.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IRecipeRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IRecipeRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IRecipeRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IRecipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:31.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IIngredientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:30.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IIngredientRecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRecipeRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRecipeRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRecipeRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IIngredientRecipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:29.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFavouriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IFavouriteRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IFavouriteRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IFavouriteRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IFavouriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:28.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDifficultyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IDifficultyRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\IDifficultyRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\IDifficultyRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\IDifficultyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:27.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\ICommentRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:26.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\iRecipeAPI.Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipeAPI.Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "..\\iRecipeAPI.Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:25.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\User.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\User.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\User.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:13.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Unit.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Unit.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Unit.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:12.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Recipe.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Recipe.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Recipe.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:11.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IngredientRecipe.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\IngredientRecipe.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\IngredientRecipe.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\IngredientRecipe.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\IngredientRecipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:10.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Ingredient.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Ingredient.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Ingredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:08.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Favourite.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Favourite.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Favourite.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Favourite.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Favourite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:05.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Difficulty.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:57.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Comment.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Comment.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Comment.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:56.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Category.cs",
+              "RelativeDocumentMoniker": "..\\iRecipe.Domain\\Category.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe.Domain\\Category.cs",
+              "RelativeToolTip": "..\\iRecipe.Domain\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:54.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:47.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IRecipeService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IRecipeService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IRecipeService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IRecipeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:46.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUnitService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IUnitService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IUnitService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IUnitService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IUnitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:45.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IIngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IIngredientService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IIngredientService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IIngredientService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IIngredientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:44.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IIngredientRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IIngredientRecipeService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IIngredientRecipeService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IIngredientRecipeService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IIngredientRecipeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:43.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IFavouriteService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IFavouriteService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IFavouriteService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IFavouriteService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IFavouriteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:42.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDifficultyService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IDifficultyService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\IDifficultyService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\IDifficultyService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\IDifficultyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:41.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:39.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:37.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv4EAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:25.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UnitService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UnitService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\UnitService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UnitService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\UnitService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:23.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\RecipeService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\RecipeService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\RecipeService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA5wDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:01.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\IngredientService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\IngredientService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\IngredientService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\IngredientService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:36.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IngredientRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\IngredientRecipeService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\IngredientRecipeService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\IngredientRecipeService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\IngredientRecipeService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:33.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FavouriteService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\FavouriteService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\FavouriteService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\FavouriteService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\FavouriteService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:31.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DifficultyService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\DifficultyService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\DifficultyService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\DifficultyService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\DifficultyService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:28.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\CommentService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\CommentService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\CommentService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\CommentService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:26.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:19.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Program.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Program.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Program.cs",
+              "RelativeToolTip": "iRecipe\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:36:45.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UserController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAADwvzQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:35:47.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\UnitController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\UnitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:35:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:34:55.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\IngredientController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\IngredientController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\IngredientController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\IngredientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:34:18.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IngredientRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\IngredientRecipeController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\IngredientRecipeController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\IngredientRecipeController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\IngredientRecipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:34:17.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FavouriteController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\FavouriteController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\FavouriteController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\FavouriteController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\FavouriteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:33:59.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DifficultyController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\DifficultyController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\DifficultyController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\DifficultyController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\DifficultyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:33:53.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:33:01.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "iRecipe\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "iRecipe\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:32:55.843Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -34,19 +987,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\UserService.cs",
-              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
-              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\UserService.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:21:30.392Z",
-              "EditorCaption": ""
             }
           ]
         },

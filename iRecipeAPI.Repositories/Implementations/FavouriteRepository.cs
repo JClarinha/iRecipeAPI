@@ -30,7 +30,7 @@ namespace iRecipeAPI.Repositories.Implementations
 
         public Favourite GetById(int id)
         {
-            return _dbSet.FirstOrDefault(favourite => favourite.Id == id); //SELECT / FROM Category WHERE iD = ID;
+            return _dbSet.FirstOrDefault(favourite => favourite.Id == id);
         }
 
 

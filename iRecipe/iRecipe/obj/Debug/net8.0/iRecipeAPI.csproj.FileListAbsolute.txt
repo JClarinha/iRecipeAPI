@@ -791,7 +791,9 @@ C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\iRe
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\iRecipeAPI.pdb
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Humanizer.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Build.dll
@@ -811,9 +813,16 @@ C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Mic
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -844,6 +853,7 @@ C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\NuG
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -1042,6 +1052,3 @@ C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\ref
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\iRecipeAPI.pdb
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\iRecipeAPI.genruntimeconfig.cache
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\ref\iRecipeAPI.dll
-C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BouncyCastle.Crypto.dll
-C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

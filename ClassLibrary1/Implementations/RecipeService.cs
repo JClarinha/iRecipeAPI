@@ -18,7 +18,7 @@ namespace iRecipeAPI.Services.Implementations
         private IIngredientRecipeRepository _ingredientRecipeRepository;
 
 
-        public RecipeService(iRecipeAPIDBContext irecipeAPIDBContext, IRecipeRepository recipeRepository) //IIngredientRecipeRepository ingredientRecipeRepository)
+        public RecipeService(iRecipeAPIDBContext irecipeAPIDBContext, IRecipeRepository recipeRepository) 
         {
             _irecipeAPIDBContext = irecipeAPIDBContext;
             _recipeRepository = recipeRepository;
@@ -48,11 +48,7 @@ namespace iRecipeAPI.Services.Implementations
             {
                 recipe = _recipeRepository.Add(recipe);
             }
-            /*
-           else
-            {
-                recipe = _recipeRepository.Update(recipe);
-            }*/
+         
 
             return recipe;
         }

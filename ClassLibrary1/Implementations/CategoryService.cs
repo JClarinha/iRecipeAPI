@@ -39,11 +39,7 @@ namespace iRecipeAPI.Services.Implementations
             {
                 category = _categoryRepository.Add(category);
             }
-          /*  else
-            {
-                category = _categoryRepository.Update(category);
-            }
-          */
+        
             return category;
         }
 

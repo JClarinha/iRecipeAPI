@@ -38,9 +38,9 @@ namespace iRecipeAPI.Controllers
             var comment = _commentService.GetById(id);
             if (comment == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(comment); // Retorna 200 com os dados da categoria
+            return Ok(comment); 
         }
 
         [HttpGet("User/{UserId}")]
@@ -50,16 +50,10 @@ namespace iRecipeAPI.Controllers
 
             if (comment == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(comment); // Retorna 200 com os dados da categoria
+            return Ok(comment); 
         }
-
-        /*[HttpPost]
-        public Comment SaveComment(Comment comment)
-        {
-            return _commentService.SaveComment(comment);
-        }*/
 
 
         [HttpPost]
@@ -71,7 +65,7 @@ namespace iRecipeAPI.Controllers
 
             if (user == null && recipe == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
 
             comment.Recipe = recipe;

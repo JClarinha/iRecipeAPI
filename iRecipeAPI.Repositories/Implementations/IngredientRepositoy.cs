@@ -39,7 +39,7 @@ namespace iRecipeAPI.Repositories.Implementations
 
         public Ingredient GetByName(string name)
         {
-            //return _dbSet.FirstOrDefault(ingredient => ingredient.Name == name);
+            
             return _dbSet.FirstOrDefault(ingredient => ingredient.Name.ToLower() == name.ToLower());
         }
 

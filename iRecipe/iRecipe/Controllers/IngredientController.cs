@@ -30,9 +30,9 @@ namespace iRecipeAPI.Controllers
             var ingredient = _ingredientService.GetById(id);
             if (ingredient == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(ingredient); // Retorna 200 com os dados da categoria
+            return Ok(ingredient); 
         }
 
         [HttpGet ("name")]

@@ -1,28 +1,25 @@
-using Microsoft;
-using Microsoft.OpenApi.Models;
-using iRecipeAPI.Services.Interfaces;
-using iRecipeAPI.Services.Implementations;  
 using iRecipeAPI.Data.Context;
 using iRecipeAPI.Repositories.Implementations;
 using iRecipeAPI.Repositories.Interfaces;
+using iRecipeAPI.Services.Implementations;
+using iRecipeAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 namespace iRecipeAPI
 {
     public class Program
     {
+
+
+
+
         public static void Main(string[] args)
         {
 
             var builder = WebApplication.CreateBuilder(args);
-
-            /* var builder = WebApplication.CreateBuilder(new WebApplicationOptions
-             {
-                 Args = args,
-                 WebRootPath = "wwwroot" // Podes substituir "wwwroot" por outro caminho, se necessário.
-             });*/
 
             // Configuração da autenticação JWT
             builder.Services.AddAuthentication(options =>
@@ -79,8 +76,11 @@ namespace iRecipeAPI
             
         });
 
-            // Registo da base de dados
-            builder.Services.AddScoped<iRecipeAPIDBContext>();
+
+           // Registo da base de dados
+           builder.Services.AddScoped<iRecipeAPIDBContext>();
+
+       
 
             // Registo de repositórios
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();

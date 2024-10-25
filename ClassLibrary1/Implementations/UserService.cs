@@ -61,8 +61,6 @@ namespace iRecipeAPI.Services.Implementations
             {
                 user = _userRepository.Update(user);
             }
-
-            //_irecipeAPIDBContext.SaveChanges();
             return user;
         }
 
@@ -115,21 +113,21 @@ namespace iRecipeAPI.Services.Implementations
                     }
                 }
 
-                // Depois de remover os favoritos e comentários, exclua o usuário
+              
                 _userRepository.Remove(userResult);
             }
             catch (InvalidOperationException ex)
             {
                 // Tratamento específico para usuário não encontrado
                 Console.WriteLine($"Erro: {ex.Message}");
-                // Lançar exceção ou retornar uma mensagem apropriada para o controlador ou serviço
+              
                 throw;
             }
             catch (Exception ex)
             {
                 // Tratamento genérico de exceção
                 Console.WriteLine($"Erro inesperado ao tentar remover o usuário: {ex.Message}");
-                // Lançar exceção ou retornar uma mensagem apropriada
+               
                 throw;
             }
         }

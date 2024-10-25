@@ -36,9 +36,9 @@ namespace iRecipeAPI.Controllers
             var recipe = _recipeService.GetById(id);
             if (recipe == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(recipe); // Retorna 200 com os dados da categoria
+            return Ok(recipe); 
         }
 
         
@@ -48,18 +48,18 @@ namespace iRecipeAPI.Controllers
         {
             try
             {
-                var recipes = _recipeService.GetByUserId(UserId); // Presumindo que isso retorne List<Recipe>
+                var recipes = _recipeService.GetByUserId(UserId); 
                 if (recipes == null || !recipes.Any())
                 {
-                    return new List<Recipe>(); // Retorna uma lista vazia se não houver receitas
+                    return new List<Recipe>(); 
                 }
-                return recipes; // Retorna as receitas
+                return recipes; 
             }
             catch (Exception ex)
             {
-                // Aqui você pode logar o erro, mas como está retornando uma lista, não pode retornar StatusCode
-                // Por isso, é melhor garantir que o método de serviço sempre retorne uma lista, mesmo em erro
-                return new List<Recipe>(); // Retorna uma lista vazia em caso de erro
+                
+               
+                return new List<Recipe>(); 
             }
         }
 
@@ -114,7 +114,7 @@ namespace iRecipeAPI.Controllers
                     return NotFound("Receita não encontrada.");
                 }
 
-                // Atualiza apenas os campos que foram enviados no FormData
+                
                 if (!string.IsNullOrEmpty(recipe.Name) && recipe.Name != existingRecipe.Name)
                 {
                     existingRecipe.Name = recipe.Name;
@@ -155,7 +155,7 @@ namespace iRecipeAPI.Controllers
                     existingRecipe.Approval = recipe.Approval;
                 }
 
-                // Verifica se uma nova imagem foi enviada
+                
                 if (recipe.Image != null)
                 {
                     var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
@@ -169,10 +169,10 @@ namespace iRecipeAPI.Controllers
                         recipe.Image.CopyTo(stream);
                     }
 
-                    existingRecipe.ImagePath = filePath;  // Atualiza o caminho da imagem
+                    existingRecipe.ImagePath = filePath;  
                 }
 
-                // Atualiza a receita no banco de dados
+                
                 var updatedRecipe = _recipeService.UpdateRecipe(existingRecipe);
 
                 return Ok(updatedRecipe);

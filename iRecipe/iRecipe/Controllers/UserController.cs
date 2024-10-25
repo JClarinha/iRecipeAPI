@@ -36,9 +36,9 @@ namespace iRecipeAPI.Controllers
             var user = _userService.GetById(id);
             if (user == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(user); // Retorna 200 com os dados da categoria
+            return Ok(user); a
         }
 
 
@@ -48,9 +48,9 @@ namespace iRecipeAPI.Controllers
             var user = _userService.GetByEmail(email);
             if (user == null)
             {
-                return NotFound(); // Retorna 404 se não for encontrada
+                return NotFound(); 
             }
-            return Ok(user); // Retorna 200 com os dados da categoria
+            return Ok(user); 
         }
 
         //Para criar users Admin a partir da API

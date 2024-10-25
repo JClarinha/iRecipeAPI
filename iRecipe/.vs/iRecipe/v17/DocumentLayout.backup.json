@@ -1,11 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -13,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 491,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,19 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\UserService.cs",
-              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs*",
-              "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\UserService.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAwFcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:21:30.392Z",
-              "EditorCaption": ""
             }
           ]
         },
