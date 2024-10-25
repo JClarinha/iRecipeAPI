@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\irecipe\\irecipe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F042563-C55A-4AD6-97FB-95D60ACCB1DD}|iRecipe\\iRecipeAPI.csproj|solutionrelative:irecipe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D96AB16A-BB2A-4F91-85E0-5C4AADF85AB9}|..\\ClassLibrary1\\iRecipeAPI.Services.csproj|c:\\users\\joaoc\\desktop\\projetos\\irecipe\\api\\classlibrary1\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -17,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 491,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,28 +37,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "..\\ClassLibrary1\\Implementations\\UserService.cs",
               "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\ClassLibrary1\\Implementations\\UserService.cs",
               "RelativeToolTip": "..\\ClassLibrary1\\Implementations\\UserService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T12:29:02.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "iRecipe\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\Controllers\\UserController.cs",
-              "RelativeToolTip": "iRecipe\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAswHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T12:19:32.871Z",
+              "WhenOpened": "2024-10-25T16:21:30.392Z",
               "EditorCaption": ""
             }
           ]

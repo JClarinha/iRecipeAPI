@@ -48,6 +48,8 @@ namespace iRecipeAPI.Data.Context
             .HasIndex(u => u.Email)
             .IsUnique(); // Define o campo Email como único
 
+
+
             // Relacionamento entre Comment e Recipe
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.Recipe)
@@ -72,6 +74,8 @@ namespace iRecipeAPI.Data.Context
                 .WithMany() // Sem navegação inversa em User
                 .HasForeignKey(f => f.UserId)
                 .OnDelete(DeleteBehavior.Restrict); // Cascata na exclusão de usuários
+
+
 
             modelBuilder.Entity<Favourite>()
                 .HasOne(f => f.Recipe)

@@ -17,11 +17,15 @@ namespace iRecipeAPI.Services.Implementations
     {
         private iRecipeAPIDBContext _irecipeAPIDBContext;
         private IUserRepository _userRepository;
+        private IFavouriteRepository _favouriteRepository;
+        private ICommentRepository _commentRepository;
 
-        public UserService(iRecipeAPIDBContext irecipeAPIDBContext, IUserRepository userRepository)
+        public UserService(iRecipeAPIDBContext irecipeAPIDBContext, IUserRepository userRepository, IFavouriteRepository favouriteRepository, ICommentRepository commentRepository)
         {
             _irecipeAPIDBContext = irecipeAPIDBContext;
             _userRepository = userRepository;
+            _favouriteRepository = favouriteRepository;
+            _commentRepository = commentRepository;
         }
 
         public List<User> GetAll()
@@ -39,7 +43,7 @@ namespace iRecipeAPI.Services.Implementations
             return _userRepository.GetByEmail(email);
         }
 
-        public bool UserExists (string email)
+        public bool UserExists(string email)
         {
             var user = _userRepository.GetByEmail(email);
             return user != null; //Retorna true se o utilizador existir;
@@ -53,7 +57,7 @@ namespace iRecipeAPI.Services.Implementations
             {
                 user = _userRepository.Add(user);
             }
-           else
+            else
             {
                 user = _userRepository.Update(user);
             }
@@ -82,13 +86,55 @@ namespace iRecipeAPI.Services.Implementations
 
         public void RemoveUser(int id)
         {
-            User userResult = _userRepository.GetById(id);
-            if (userResult != null)
+            try
             {
+                User userResult = _userRepository.GetById(id);
+
+                if (userResult == null)
+                {
+                    throw new InvalidOperationException($"Usuário com ID {id} não foi encontrado.");
+                }
+
+                // Verificar se o usuário tem favoritos antes de tentar remover
+                var favourites = _favouriteRepository.GetAllByUserId(id);
+                if (favourites.Any())
+                {
+                    foreach (var favourite in favourites)
+                    {
+                        _favouriteRepository.Remove(favourite);
+                    }
+                }
+
+                // Verificar se o usuário tem comentários antes de tentar remover
+                var comments = _commentRepository.GetAllByUserId(id);
+                if (comments.Any())
+                {
+                    foreach (var comment in comments)
+                    {
+                        _commentRepository.Remove(comment);
+                    }
+                }
+
+                // Depois de remover os favoritos e comentários, exclua o usuário
                 _userRepository.Remove(userResult);
-                
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Tratamento específico para usuário não encontrado
+                Console.WriteLine($"Erro: {ex.Message}");
+                // Lançar exceção ou retornar uma mensagem apropriada para o controlador ou serviço
+                throw;
+            }
+            catch (Exception ex)
+            {
+                // Tratamento genérico de exceção
+                Console.WriteLine($"Erro inesperado ao tentar remover o usuário: {ex.Message}");
+                // Lançar exceção ou retornar uma mensagem apropriada
+                throw;
             }
         }
 
+
     }
+
 }
