@@ -1042,3 +1042,6 @@ C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\ref
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\iRecipeAPI.pdb
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\iRecipeAPI.genruntimeconfig.cache
 C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\obj\Debug\net8.0\ref\iRecipeAPI.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\joaoc\Desktop\Projetos\iRecipe\API\iRecipe\iRecipe\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

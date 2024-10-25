@@ -160,7 +160,7 @@ namespace iRecipeAPI.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("Approval")
+                    b.Property<bool?>("Approval")
                         .HasColumnType("bit");
 
                     b.Property<int>("CategoryId")
@@ -235,12 +235,9 @@ namespace iRecipeAPI.Data.Migrations
                     b.Property<bool>("Admin")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Blocked")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -251,6 +248,9 @@ namespace iRecipeAPI.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });

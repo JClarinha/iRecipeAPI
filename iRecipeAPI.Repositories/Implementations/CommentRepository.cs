@@ -31,6 +31,13 @@ namespace iRecipeAPI.Repositories.Implementations
             return _dbSet.Any(comment => comment.Id == id);
         }
 
+
+        public List<Comment> GetAllByUserId(int userId)
+        {
+            return _dbSet.Where(p => p.UserId == userId).Include(p => p.User).Include(p => p.Recipe).ToList();
+        }
+
+
         public Comment Add(Comment comment)
         {
             _dbSet.Add(comment);
@@ -49,6 +56,8 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Comment comment)
         {
             _dbSet.Remove(comment);
+            _iRecipeAPIDBContext.SaveChanges();
+
         }
     }
 

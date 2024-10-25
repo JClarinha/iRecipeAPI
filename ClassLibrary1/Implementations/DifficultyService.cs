@@ -47,7 +47,6 @@ namespace iRecipeAPI.Services.Implementations
                 difficulty = _difficultyRepository.Update(difficulty);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
             return difficulty;
         }
 
@@ -57,7 +56,6 @@ namespace iRecipeAPI.Services.Implementations
             if (difficultyResult != null)
             {
                 _difficultyRepository.Remove(difficultyResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
 

@@ -41,7 +41,7 @@ namespace iRecipeAPI.Controllers
             return _difficultyService.SaveDifficulty(difficulty);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteDifficulty(int id)
         {
             _difficultyService.RemoveDifficulty(id);

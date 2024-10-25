@@ -52,7 +52,6 @@ namespace iRecipeAPI.Services.Implementations
                 ingredient = _ingredientRepository.Update(ingredient);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
             return ingredient;
         }
 
@@ -88,7 +87,6 @@ namespace iRecipeAPI.Services.Implementations
             if (ingredientResult != null)
             {
                 _ingredientRepository.Remove(ingredientResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
     }

@@ -6,100 +6,6 @@ using Microsoft.EntityFrameworkCore;
 namespace iRecipeAPI.Data.Context
 {
 
-
-    /*public class iRecipeAPIDBContext : DbContext
-    {
-        public iRecipeAPIDBContext(DbContextOptions<iRecipeAPIDBContext> options) : base(options) { }
-
-        public DbSet<Recipe> Recipes { get; set; }
-        public DbSet<Ingredient> Ingredients { get; set; }
-        public DbSet<IngredientRecipe> IngredientRecipes { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Difficulty> Difficulties { get; set; }
-        public DbSet<Unit> Units { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Comment> Comments { get; set; }
-        public DbSet<Favourite> Favourites { get; set; }
-
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=Clarinha_Laptop\\SQLEXPRESS; Database=iRecipe;Trusted_Connection=True;integrated security=true; TrustServerCertificate=True");
-        }
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Chave composta para IngredientRecipes
-            modelBuilder.Entity<IngredientRecipe>()
-                .HasKey(ir => new { ir.IngredientId, ir.RecipeId });
-
-            // Configurar a foreign key entre IngredientRecipes e Recipes
-            modelBuilder.Entity<IngredientRecipe>()
-                .HasOne(ir => ir.Recipe)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(ir => ir.RecipeId)
-                .OnDelete(DeleteBehavior.Cascade);  // Remover os ingredientes ao apagar a receita
-
-            // Configurar a foreign key entre IngredientRecipes e Ingredients
-            modelBuilder.Entity<IngredientRecipe>()
-                .HasOne(ir => ir.Ingredient)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(ir => ir.IngredientId);
-
-            // Chave composta para Favorites
-            modelBuilder.Entity<Favourite>()
-                .HasKey(f => new { f.UserId, f.RecipeId });
-
-            // Configurar relação com Recipe
-            modelBuilder.Entity<Favourite>()
-                .HasOne(f => f.Recipe)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(f => f.RecipeId)
-                .OnDelete(DeleteBehavior.Cascade);  // Remover os favoritos ao apagar a receita
-
-            // Configurar relação com User
-            modelBuilder.Entity<Favourite>()
-                .HasOne(f => f.User)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(f => f.UserId);
-
-            // Configurar relação entre Recipes e Categories
-            modelBuilder.Entity<Recipe>()
-                .HasOne(r => r.Category)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(r => r.CategoryId);
-
-            // Configurar relação entre Recipes e Difficulties
-            modelBuilder.Entity<Recipe>()
-                .HasOne(r => r.Difficulty)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(r => r.DifficultyId);
-
-            // Configurar relação entre Recipes e Users (autor da receita)
-            modelBuilder.Entity<Recipe>()
-                .HasOne(r => r.User)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(r => r.UserId);
-
-            // Configurar relação entre Comments e Recipes
-            modelBuilder.Entity<Comment>()
-                .HasOne(c => c.Recipe)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(c => c.RecipeId);
-
-            // Configurar relação entre Comments e Users (autor do comentário)
-            modelBuilder.Entity<Comment>()
-                .HasOne(c => c.User)
-                .WithMany()  // Sem propriedades de navegação explícitas
-                .HasForeignKey(c => c.UserId);
-
-            base.OnModelCreating(modelBuilder);
-        }
-
-    }*/
-
-
     public class iRecipeAPIDBContext : DbContext
     {
         public DbSet<User> Users { get; set; }
@@ -121,6 +27,26 @@ namespace iRecipeAPI.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            modelBuilder.Entity<User>()
+            .Property(u => u.Name)
+            .IsRequired(); // Define que Name é obrigatório
+
+            modelBuilder.Entity<User>()
+            .Property(u => u.Email)
+            .IsRequired(); // Define que Email é obrigatório
+
+            modelBuilder.Entity<User>()
+            .Property(u => u.Password)
+            .IsRequired(); // Define que Password é obrigatório
+
+            modelBuilder.Entity<User>()
+            .Property(u => u.Admin)
+            .IsRequired(); // Define que Admin é obrigatório
+
+            modelBuilder.Entity<User>()
+            .HasIndex(u => u.Email)
+            .IsUnique(); // Define o campo Email como único
 
             // Relacionamento entre Comment e Recipe
             modelBuilder.Entity<Comment>()

@@ -47,7 +47,7 @@ namespace iRecipeAPI.Controllers
             return _ingredientService.SaveIngredient(ingredient);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteIngredient(int id)
         {
             _ingredientService.RemoveIngredient(id);

@@ -34,9 +34,9 @@ namespace iRecipeAPI.Repositories.Implementations
         }
 
 
-        public List<Favourite> GetAllByUser(User user)
+        public List<Favourite> GetAllByUserId(int userId)
         {
-            return _dbSet.Where(favourite => favourite.UserId ==user.Id).ToList();
+            return _dbSet.Where(p => p.UserId == userId).Include(p => p.User).Include(p => p.Recipe).ToList();
         }
 
         public bool GetAny(int id)
@@ -54,6 +54,8 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Favourite favourite)
         {
             _dbSet.Remove(favourite);
+            _iRecipeAPIDBContext.SaveChanges();
+
         }
 
 

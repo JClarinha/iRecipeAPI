@@ -28,7 +28,7 @@ namespace iRecipeAPI.Repositories.Implementations
 
         public List<IngredientRecipe> GetAllByRecipeId(int recipeId)
         {
-            return _dbSet.Where(p => p.RecipeId == recipeId).Include(p => p.Ingredient).ToList();
+            return _dbSet.Where(p => p.RecipeId == recipeId).Include(p => p.Ingredient).Include(p => p.Unit).ToList();
         }
 
         public IngredientRecipe GetById(int id)

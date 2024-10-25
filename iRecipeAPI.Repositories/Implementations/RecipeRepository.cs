@@ -2,6 +2,7 @@
 using iRecipeAPI.Data.Context;
 using iRecipeAPI.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace iRecipeAPI.Repositories.Implementations
 {
@@ -25,6 +26,11 @@ namespace iRecipeAPI.Repositories.Implementations
         public Recipe GetById(int id)
         {
             return _dbSet.FirstOrDefault(recipe => recipe.Id == id);
+        }
+
+        public List<Recipe> GetByUserId(int Userid)
+        {
+            return _dbSet.Where(recipe => recipe.UserId == Userid).ToList();
         }
 
         public bool GetAny(int id)
@@ -60,6 +66,8 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Recipe recipe)
         {
             _dbSet.Remove(recipe);
+            _iRecipeAPIDBContext.SaveChanges();
+
         }
 
 

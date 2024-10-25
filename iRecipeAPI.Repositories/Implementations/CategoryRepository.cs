@@ -58,6 +58,8 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Category category) 
         {
             _dbSet.Remove(category);//DELETE FROM Category 
+            _iRecipeAPIDBContext.SaveChanges();
+
         }
 
 

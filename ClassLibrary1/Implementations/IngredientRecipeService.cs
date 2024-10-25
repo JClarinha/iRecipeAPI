@@ -40,30 +40,6 @@ namespace iRecipeAPI.Services.Implementations
         {
             return _ingredientRecipeRepository.GetById(id);
         }
-
-        /*
-        public IngredientRecipe SaveIngredientRecipe(IngredientRecipe ingredientRecipe)
-        {
-            IngredientRecipe ingredientRecipeResult = _ingredientRecipeRepository.GetById(ingredientRecipe.Id);
-
-            ingredientRecipe.Ingredient = null;
-            ingredientRecipe.Recipe = null;
-
-            
-            if (ingredientRecipeResult == null)
-            {
-                ingredientRecipe = _ingredientRecipeRepository.Add(ingredientRecipe);
-            }
-            else
-            {
-                ingredientRecipe = _ingredientRecipeRepository.Update(ingredientRecipe);
-            }
-
-            _irecipeAPIDBContext.SaveChanges();
-
-            return ingredientRecipe;
-        }
-        */
         
       
             public IngredientRecipe SaveIngredientRecipe(IngredientRecipe ingredientRecipe)
@@ -97,7 +73,6 @@ namespace iRecipeAPI.Services.Implementations
             {
                 _ingredientRecipeRepository.Remove(ingredientRcipeResult);
 
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
 

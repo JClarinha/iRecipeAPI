@@ -27,6 +27,12 @@ namespace iRecipeAPI.Services.Implementations
             return _commentRepository.GetAll();
         }
 
+        public List<Comment> GetAllByUserId(int userId)
+        {
+            return _commentRepository.GetAllByUserId(userId);
+        }
+
+
         public Comment GetById(int id)
         {
             return _commentRepository.GetById(id);
@@ -45,7 +51,6 @@ namespace iRecipeAPI.Services.Implementations
                 Comment = _commentRepository.Update(Comment);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
             return Comment;
         }
 
@@ -55,7 +60,6 @@ namespace iRecipeAPI.Services.Implementations
             if (commentResult != null)
             {
                 _commentRepository.Remove(commentResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
 

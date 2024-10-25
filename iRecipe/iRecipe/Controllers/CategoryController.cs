@@ -40,7 +40,7 @@ namespace iRecipeAPI.Controllers
             return _categoryService.SaveCategory(category);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteCategory(int id)
         {
             _categoryService.RemoveCategory(id);

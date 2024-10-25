@@ -42,7 +42,7 @@ namespace iRecipeAPI.Controllers
             return _unitService.SaveUnit(unit);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteUnit(int id)
         {
             _unitService.RemoveUnit(id);

@@ -11,7 +11,9 @@ namespace iRecipeAPI.Services.Interfaces
     {
         List<Recipe> GetAll();
         Recipe GetById(int id);
+        List<Recipe> GetByUserId(int Userid);
         Recipe SaveRecipe(Recipe recipe);
+        Recipe UpdateRecipe(Recipe recipe);
         void RemoveRecipe(int id);
     }
 }

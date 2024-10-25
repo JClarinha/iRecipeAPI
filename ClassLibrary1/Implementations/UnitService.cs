@@ -47,7 +47,6 @@ namespace iRecipeAPI.Services.Implementations
                 unit = _unitRepository.Update(unit);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
             return unit;
         }
 
@@ -57,7 +56,6 @@ namespace iRecipeAPI.Services.Implementations
             if (unitResult != null)
             {
                 _unitRepository.Remove(unitResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
     }

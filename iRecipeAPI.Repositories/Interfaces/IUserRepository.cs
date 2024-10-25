@@ -12,7 +12,7 @@ namespace iRecipeAPI.Repositories.Interfaces
         List<User> GetAll();
         User GetById(int id);
         bool GetAny(int id);
-        List<User> GetByEmail(string email);
+        User GetByEmail(string email);
         User Add(User user);
         User Update(User user);
         void Remove(User User);

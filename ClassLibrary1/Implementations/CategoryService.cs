@@ -53,7 +53,6 @@ namespace iRecipeAPI.Services.Implementations
             if (categoryResult != null)
             {
                 _categoryRepository.Remove(categoryResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
 

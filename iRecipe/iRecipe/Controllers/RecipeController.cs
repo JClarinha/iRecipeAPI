@@ -41,116 +41,154 @@ namespace iRecipeAPI.Controllers
             return Ok(recipe); // Retorna 200 com os dados da categoria
         }
 
+        
 
-        /*
-
-        [HttpPost] // EUREKA
-        public IActionResult SaveRecipe([FromForm] Recipe recipe)
+        [HttpGet("User/{UserId}")]
+        public List<Recipe> GetByUserId(int UserId)
         {
-            // Verificar se a imagem foi fornecida
-            if (recipe.Image != null)
+            try
             {
-                // Definir o caminho para armazenar a imagem
-                var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
-                var extension = Path.GetExtension(recipe.Image.FileName);
-                var filePath = Path.Combine(_environment.WebRootPath, "images", $"{fileName}_{DateTime.Now.Ticks}{extension}");
-
-                // Criar a pasta "images" se não existir
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-
-                // Guardar a imagem no servidor de forma síncrona
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                var recipes = _recipeService.GetByUserId(UserId); // Presumindo que isso retorne List<Recipe>
+                if (recipes == null || !recipes.Any())
                 {
-                    recipe.Image.CopyTo(stream);
+                    return new List<Recipe>(); // Retorna uma lista vazia se não houver receitas
                 }
-
-                // Guardar o caminho da imagem na entidade
-                recipe.ImagePath = filePath;
+                return recipes; // Retorna as receitas
             }
-
-            // Adicionar a receita à base de dados de forma síncrona
-            _dbContext.Recepies.Add(recipe);
-            _dbContext.SaveChanges();
-
-
-
-            // Processar e associar os ingredientes
-            if (recipe.IngredientRecipes != null && recipe.IngredientRecipes.Any())
+            catch (Exception ex)
             {
-                foreach (var ingredient in recipe.IngredientRecipes)
-                {
-                    // Criar o objeto IngredientRecipe com as propriedades necessárias
-                    var ingredientRecipe = new IngredientRecipe
-                    {
-                        RecipeId = recipe.Id,  // ID da receita que acabou de ser criada
-                        IngredientId = ingredient.IngredientId,
-                        Quantity = ingredient.Quantity,
-                        UnitId = ingredient.UnitId
-                    };
-
-                    _dbContext.IngredientRecepies.Add(ingredientRecipe);
-                }
-
-                _dbContext.SaveChanges();
+                // Aqui você pode logar o erro, mas como está retornando uma lista, não pode retornar StatusCode
+                // Por isso, é melhor garantir que o método de serviço sempre retorne uma lista, mesmo em erro
+                return new List<Recipe>(); // Retorna uma lista vazia em caso de erro
             }
-
-
-            // Retornar uma resposta bem-sucedida
-            return Ok(new { message = "Receita adicionada com sucesso", data = recipe });
         }
-        */
 
-        /*
-        [HttpPost]
-        public IActionResult SaveRecipe([FromForm] Recipe recipe)
+        [HttpGet("images/{*filename}")]
+        public IActionResult GetImage(string filename)
         {
-            // Verificar se a imagem foi fornecida
-            if (recipe.Image != null)
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", filename);
+            if (!System.IO.File.Exists(path))
             {
-                var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
-                var extension = Path.GetExtension(recipe.Image.FileName);
-                var filePath = Path.Combine(_environment.WebRootPath, "images", $"{fileName}_{DateTime.Now.Ticks}{extension}");
-
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    recipe.Image.CopyTo(stream);
-                }
-
-                recipe.ImagePath = filePath;
+                return NotFound();
             }
+            return PhysicalFile(path, "image/png");
+        }
 
-            // Chamar o serviço para salvar a receita e seus ingredientes
-            var result = _recipeService.SaveRecipe(recipe);
-
-            return Ok(new { message = "Receita adicionada com sucesso", data = recipe });
-        }*/
+        
 
         [HttpPost]
-        public Recipe SaveCategory(Recipe recipe)
+        public Recipe SaveRecipe(Recipe recipe)
+
         {
-            if (recipe.Image != null)
-            {
-                var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
-                var extension = Path.GetExtension(recipe.Image.FileName);
-                var filePath = Path.Combine(_environment.WebRootPath, "images", $"{fileName}_{DateTime.Now.Ticks}{extension}");
 
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                if (recipe.Image != null )
                 {
-                    recipe.Image.CopyTo(stream);
-                }
+                    var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
+                    var extension = Path.GetExtension(recipe.Image.FileName);
+                    var filePath = Path.Combine(_environment.WebRootPath, "images", $"{fileName}_{DateTime.Now.Ticks}{extension}");
 
-                recipe.ImagePath = filePath;
-            }
+                    Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        recipe.Image.CopyTo(stream);
+                    }
+
+                    recipe.ImagePath = filePath;
+                }
 
             return _recipeService.SaveRecipe(recipe);
         }
 
 
-        [HttpDelete]
+
+        [HttpPut]
+        public IActionResult UpdateRecipe([FromForm] Recipe recipe)
+        {
+            try
+            {
+                var existingRecipe = _recipeService.GetById(recipe.Id);
+
+                if (existingRecipe == null)
+                {
+                    return NotFound("Receita não encontrada.");
+                }
+
+                // Atualiza apenas os campos que foram enviados no FormData
+                if (!string.IsNullOrEmpty(recipe.Name) && recipe.Name != existingRecipe.Name)
+                {
+                    existingRecipe.Name = recipe.Name;
+                }
+
+                if (!string.IsNullOrEmpty(recipe.Description) && recipe.Description != existingRecipe.Description)
+                {
+                    existingRecipe.Description = recipe.Description;
+                }
+
+                if (recipe.Pax != existingRecipe.Pax)
+                {
+                    existingRecipe.Pax = recipe.Pax;
+                }
+
+                if (recipe.Duration != existingRecipe.Duration)
+                {
+                    existingRecipe.Duration = recipe.Duration;
+                }
+
+                if (recipe.CategoryId != existingRecipe.CategoryId)
+                {
+                    existingRecipe.CategoryId = recipe.CategoryId;
+                }
+
+                if (recipe.DifficultyId != existingRecipe.DifficultyId)
+                {
+                    existingRecipe.DifficultyId = recipe.DifficultyId;
+                }
+
+                if (!string.IsNullOrEmpty(recipe.Preparation) && recipe.Preparation != existingRecipe.Preparation)
+                {
+                    existingRecipe.Preparation = recipe.Preparation;
+                }
+
+                if (recipe.Approval != null && recipe.Approval != existingRecipe.Approval)
+                {
+                    existingRecipe.Approval = recipe.Approval;
+                }
+
+                // Verifica se uma nova imagem foi enviada
+                if (recipe.Image != null)
+                {
+                    var fileName = Path.GetFileNameWithoutExtension(recipe.Image.FileName);
+                    var extension = Path.GetExtension(recipe.Image.FileName);
+                    var filePath = Path.Combine(_environment.WebRootPath, "images", $"{fileName}_{DateTime.Now.Ticks}{extension}");
+
+                    Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        recipe.Image.CopyTo(stream);
+                    }
+
+                    existingRecipe.ImagePath = filePath;  // Atualiza o caminho da imagem
+                }
+
+                // Atualiza a receita no banco de dados
+                var updatedRecipe = _recipeService.UpdateRecipe(existingRecipe);
+
+                return Ok(updatedRecipe);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao atualizar receita: {ex.Message}");
+            }
+        }
+
+
+
+
+
+
+        [HttpDelete("{id}")]
         public void DeleteRecipe(int id)
         {
             _recipeService.RemoveRecipe(id);

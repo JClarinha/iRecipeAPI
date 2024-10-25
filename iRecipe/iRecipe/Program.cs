@@ -1,10 +1,13 @@
 using Microsoft;
 using Microsoft.OpenApi.Models;
 using iRecipeAPI.Services.Interfaces;
-using iRecipeAPI.Services.Implementations;
+using iRecipeAPI.Services.Implementations;  
 using iRecipeAPI.Data.Context;
 using iRecipeAPI.Repositories.Implementations;
 using iRecipeAPI.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace iRecipeAPI
 {
@@ -15,12 +18,31 @@ namespace iRecipeAPI
 
             var builder = WebApplication.CreateBuilder(args);
 
-           /* var builder = WebApplication.CreateBuilder(new WebApplicationOptions
-            {
-                Args = args,
-                WebRootPath = "wwwroot" // Podes substituir "wwwroot" por outro caminho, se necessário.
-            });*/
+            /* var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+             {
+                 Args = args,
+                 WebRootPath = "wwwroot" // Podes substituir "wwwroot" por outro caminho, se necessário.
+             });*/
 
+            // Configuração da autenticação JWT
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = "localhost",  // Atualize conforme necessário
+                    ValidAudience = "localhost", // Atualize conforme necessário
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("JWT_SECRET_KEY") ?? "YourFallbackSecretKey"))
+                };
+            });
 
 
             // Configuração do Serviço do Swagger
@@ -33,7 +55,29 @@ namespace iRecipeAPI
                         Title = "iRecipe Api",
                         Version = "1.0"
                     });
-            });
+                // Configurar o Swagger para usar o JWT
+                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    BearerFormat = "JWT",
+                    Scheme = "Bearer"
+                });
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                {
+                    new OpenApiSecurityScheme {
+                        Reference = new OpenApiReference {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                        }
+                    },
+                    new string[] { }
+                }});
+            
+        });
 
             // Registo da base de dados
             builder.Services.AddScoped<iRecipeAPIDBContext>();
@@ -73,6 +117,9 @@ namespace iRecipeAPI
             app.UseRouting();
 
             app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            // Habilitar autenticação e autorização
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
@@ -92,4 +139,6 @@ namespace iRecipeAPI
             app.Run();
         }
     }
+
+
 }

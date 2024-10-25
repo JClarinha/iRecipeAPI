@@ -56,6 +56,7 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Difficulty difficulty)
         {
             _dbSet.Remove(difficulty);
+            _iRecipeAPIDBContext.SaveChanges();
         }
 
     }

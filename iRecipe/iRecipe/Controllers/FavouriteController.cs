@@ -13,10 +13,14 @@ namespace iRecipeAPI.Controllers
     public class FavouriteController : ControllerBase
     {
         private IFavouriteService _favouriteService;
+        private IUserService _userService;
+        private IRecipeService _recipeService;
 
-        public FavouriteController(IFavouriteService favouriteService)
+        public FavouriteController(IFavouriteService favouriteService, IUserService userService, IRecipeService recipeService)
         {
             _favouriteService = favouriteService;
+            _userService = userService;
+            _recipeService = recipeService;
         }
 
         [HttpGet]
@@ -35,25 +39,45 @@ namespace iRecipeAPI.Controllers
             }
             return Ok(favourite); // Retorna 200 com os dados da categoria
         }
-        /*
-        [HttpPost]
-        public Favourite SaveFavourite(Favourite favourite)
+
+        [HttpGet("User/{UserId}")]
+        public IActionResult GetByUserId(int UserId)
         {
-            return _favouriteService.SaveFavourite(favourite);
+            var favourite = _favouriteService.GetAllByUserId(UserId);
+
+            if (favourite == null)
+            {
+                return NotFound(); // Retorna 404 se não for encontrada
+            }
+            return Ok(favourite); // Retorna 200 com os dados da categoria
         }
-        */
+
 
         [HttpPost]
         public IActionResult SaveFavourite([FromForm] Favourite favourite)
         {
+
+            var user = _userService.GetById(favourite.UserId);
+            var recipe = _recipeService.GetById(favourite.RecipeId);
+
+            if (user == null && recipe == null)
+            {
+                return NotFound(); // Retorna 404 se não for encontrada
+            }
+
+            favourite.Recipe = recipe;
+            favourite.User = user;
             _favouriteService.SaveFavourite(favourite);
 
-            return Ok(new { message = "Comentário adicionado com sucesso", data = favourite });
+            return Ok(new { message = "Favorito associado à Receita com sucesso", data = favourite });
         }
 
 
 
-        [HttpDelete]
+
+
+
+        [HttpDelete("{id}")]
         public void DeleteFavourite(int id)
         {
             _favouriteService.RemoveFavourite(id);

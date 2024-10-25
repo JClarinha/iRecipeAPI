@@ -40,9 +40,9 @@ namespace iRecipeAPI.Repositories.Implementations
             return _dbSet.Any(user => user.Id == id);
         }
 
-        public List <User> GetByEmail(string email) 
+        public User GetByEmail(string email) 
         {
-            return _dbSet.Where(user => user.Email == email).ToList();
+            return _dbSet.FirstOrDefault(user => user.Email == email);
         }
 
         public User Add(User user) 
@@ -63,7 +63,9 @@ namespace iRecipeAPI.Repositories.Implementations
 
         public void Remove(User user)
         {
-            _dbSet.Remove(user) ;
+            _dbSet.Remove(user);
+            _iRecipeAPIDBContext.SaveChanges();
+
         }
 
     }

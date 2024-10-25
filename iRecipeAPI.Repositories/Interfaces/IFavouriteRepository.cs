@@ -10,7 +10,7 @@ namespace iRecipeAPI.Repositories.Interfaces
     public interface IFavouriteRepository
     {
         List<Favourite> GetAll();
-        List<Favourite> GetAllByUser(User user);
+        List<Favourite> GetAllByUserId(int userId);
         Favourite GetById(int id);
         bool GetAny(int id);
         Favourite Add(Favourite favourite);

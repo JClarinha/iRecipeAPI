@@ -12,6 +12,7 @@ namespace iRecipeAPI.Repositories.Interfaces
         List<Comment> GetAll();
         Comment GetById(int id);
         bool GetAny(int id);
+        List<Comment> GetAllByUserId(int userId);
         Comment Add(Comment comment);
         Comment Update(Comment comment);
         void Remove(Comment comment);

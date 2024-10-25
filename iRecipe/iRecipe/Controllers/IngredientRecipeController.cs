@@ -37,6 +37,17 @@ namespace iRecipeAPI.Controllers
             return Ok(ingredientrecipe); // Retorna 200 com os dados da categoria
         }
 
+        [HttpGet("Recipe/{RecipeId}")]
+        public IActionResult GetByRecipeId(int RecipeId)
+        {
+            var ingredientrecipe = _ingredientRecipeService.GetAllByRecipeId(RecipeId);
+            if (ingredientrecipe == null)
+            {
+                return NotFound(); // Retorna 404 se não for encontrada
+            }
+            return Ok(ingredientrecipe);
+        }
+
         [HttpPost]
         public IActionResult SaveIngredientRecipe([FromForm] IngredientRecipe ingredientRecipe)
         {
@@ -74,7 +85,7 @@ namespace iRecipeAPI.Controllers
 
         // Apenas para ver se consigo meter bonito no git
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void DeleteIngredientRecipe(int id)
         {
             _ingredientRecipeService.RemoveIngredientRecipe(id);

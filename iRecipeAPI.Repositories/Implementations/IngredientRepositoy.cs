@@ -62,6 +62,7 @@ namespace iRecipeAPI.Repositories.Implementations
         public void Remove(Ingredient ingredient)
         {
             _dbSet.Remove(ingredient);
+            _iRecipeAPIDBContext.SaveChanges();
 
         }
 

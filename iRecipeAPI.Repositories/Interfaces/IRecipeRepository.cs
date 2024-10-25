@@ -12,6 +12,7 @@ namespace iRecipeAPI.Repositories.Interfaces
     {
         List<Recipe> GetAll();
         Recipe GetById(int id);
+        List<Recipe> GetByUserId(int Userid);
         bool GetAny(int id);
         Recipe GetLast();
         List<Recipe> GetByName(string name);

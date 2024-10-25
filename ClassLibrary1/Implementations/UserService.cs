@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BCrypt.Net;
+using BCrypt;
 
 namespace iRecipeAPI.Services.Implementations
 {
@@ -32,6 +34,17 @@ namespace iRecipeAPI.Services.Implementations
             return _userRepository.GetById(id);
         }
 
+        public User GetByEmail(string email)
+        {
+            return _userRepository.GetByEmail(email);
+        }
+
+        public bool UserExists (string email)
+        {
+            var user = _userRepository.GetByEmail(email);
+            return user != null; //Retorna true se o utilizador existir;
+        }
+
         public User SaveUser(User user)
         {
             bool userExists = _userRepository.GetAny(user.Id);
@@ -40,13 +53,31 @@ namespace iRecipeAPI.Services.Implementations
             {
                 user = _userRepository.Add(user);
             }
-            else
+           else
             {
                 user = _userRepository.Update(user);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
+            //_irecipeAPIDBContext.SaveChanges();
             return user;
+        }
+
+        public void UpdateUser(User user)
+        {
+            // Atualiza o usuário no repositório
+            _userRepository.Update(user);
+        }
+
+
+        // Método para validar o utilizador
+        public User ValidateUser(string email, string password)
+        {
+            var user = _userRepository.GetByEmail(email); // Obtém o utilizador pelo nome de utilizador
+            if (user != null && BCrypt.Net.BCrypt.Verify(password, user.Password)) // Verifica se a password corresponde ao hash
+            {
+                return user; // Retorna o utilizador se a validação for bem-sucedida
+            }
+            return null; // Retorna null se a validação falhar
         }
 
         public void RemoveUser(int id)
@@ -55,7 +86,7 @@ namespace iRecipeAPI.Services.Implementations
             if (userResult != null)
             {
                 _userRepository.Remove(userResult);
-                _irecipeAPIDBContext.SaveChanges();
+                
             }
         }
 

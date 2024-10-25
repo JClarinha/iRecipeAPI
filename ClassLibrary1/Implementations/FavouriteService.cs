@@ -29,10 +29,11 @@ namespace iRecipeAPI.Services.Implementations
             return _favouriteRepository.GetAll();
         }
 
-        public List<Favourite> GetAllByUser(User user)
+        public List<Favourite> GetAllByUserId(int userId)
         {
-            return _favouriteRepository.GetAllByUser(user);
+            return _favouriteRepository.GetAllByUserId(userId);
         }
+
 
         public Favourite GetById(int id)
         {
@@ -48,7 +49,6 @@ namespace iRecipeAPI.Services.Implementations
                 favourite = _favouriteRepository.Add(favourite);
             }
 
-            _irecipeAPIDBContext.SaveChanges();
             return favourite;
         }
 
@@ -58,7 +58,6 @@ namespace iRecipeAPI.Services.Implementations
             if (FavouriteResult != null)
             {
                 _favouriteRepository.Remove(FavouriteResult);
-                _irecipeAPIDBContext.SaveChanges();
             }
         }
 

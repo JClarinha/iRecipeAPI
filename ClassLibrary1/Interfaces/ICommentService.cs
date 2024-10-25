@@ -11,6 +11,7 @@ namespace iRecipeAPI.Services.Interfaces
     {
         List<Comment> GetAll();
         Comment GetById(int id);
+        List<Comment> GetAllByUserId(int userId);
         Comment SaveComment(Comment comment);
         void RemoveComment(int id);
     }
