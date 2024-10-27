@@ -13,7 +13,7 @@ namespace iRecipeAPI.Controllers
     [ApiController]
 
 
-    public class CommentController : ControllerBase
+    public class CommentController : ControllerBase  
     { 
         private ICommentService _commentService;
         private IUserService _userService; 
