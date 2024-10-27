@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g6GpBssrkdMciWBT4EgnEHZi80MEHPPQSv4GO/xNIWE=",
+  "Hash": "AS7IGbnLEJJyXJ1TPAfzkD+AkwhehX5uDqtv11wCjSg=",
   "Source": "iRecipeAPI",
   "BasePath": "_content/iRecipeAPI",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gambas_638654720388119712.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\gambas_638654846974307957.jpg",
+      "SourceId": "iRecipeAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\",
+      "BasePath": "_content/iRecipeAPI",
+      "RelativePath": "images/gambas_638654846974307957.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gambas_638654846974307957.jpg"
     },
     {
       "Identity": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\images_638650806887244182.jpg",
@@ -547,6 +566,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\oreo_638654248453455707.png"
+    },
+    {
+      "Identity": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\oreo_638654848142668838.png",
+      "SourceId": "iRecipeAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\",
+      "BasePath": "_content/iRecipeAPI",
+      "RelativePath": "images/oreo_638654848142668838.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\oreo_638654848142668838.png"
     },
     {
       "Identity": "C:\\Users\\joaoc\\Desktop\\Projetos\\iRecipe\\API\\iRecipe\\iRecipe\\wwwroot\\images\\risotto_638654515827024538.jpg",
