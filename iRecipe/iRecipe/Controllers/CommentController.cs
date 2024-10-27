@@ -9,7 +9,7 @@ namespace iRecipeAPI.Controllers
 {
 
 
-    [Route("iRecipeAPI/[Controller]")]
+    [Route("iRecipeAPI/[Controller]")] 
     [ApiController]
 
 
